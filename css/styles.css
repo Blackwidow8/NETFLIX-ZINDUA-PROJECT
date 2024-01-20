@@ -1,0 +1,350 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins' , sans-serif;
+    box-sizing:border-box;
+}
+
+
+body {
+    background-color: #000000;
+    color:#fff;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(../images/KE-en-20240115-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position:relative;
+     border-bottom: 5px solid grey;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo
+> img {
+    width: 150px;
+    height: 100%;
+    cursor: pointer;
+    object-fit: cover;
+    
+}
+
+
+    button{
+        border: 0;
+        outline:0;
+        background:rgb(231,11,22);
+        color: rgb(255,255,255);
+        padding: 7px 20px;
+        font-size:12px;
+        border-radius: 4px;
+        margin-left: 10px;
+        cursor:pointer;
+    }
+
+    button:hover{
+        background-color: rgb(156, 5, 13);
+        transition: all 0.7s;
+    }
+
+    .first-line{
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+        font-size: 280%;
+        font-weight: 800;
+    }
+
+    .second-line{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; 
+        font-size: 150%;
+        font-weight: 200;
+        letter-spacing: 60%;
+    }
+
+    .third-line{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; 
+        font-size: 120%;
+        font-weight: 200;
+        letter-spacing: 60%;
+    }
+
+
+    .email{
+        width: 374px;
+    height: 56px;
+    background-color: transparent;
+    border: solid 1px gray;
+    border-radius: 5px;
+    font-family: 'Netflix Sans', sans-serif;
+    font-size: 15px;
+    padding-left: 20px;
+    color: white;
+    }
+
+    .submit-btn{
+        width: 204px;
+        height: 56px;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        background-color: #E50914;
+        font-family: 'Netflix Sans', sans-serif;
+        font-size: 24px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    .get-started{
+        margin-left: 300px;
+        margin-top: 20px;
+        > button:hover{
+            background-color:rgb(156, 5, 13); ;
+        }
+    }
+
+    .first-container{
+        display:flex;
+        justify-content: space-around;
+        border-bottom: 5px solid grey;
+    }
+.first-content{
+   margin-top:150px;
+
+}
+
+.first-content h1{
+    font-size: 350%;
+    font-weight: 900;
+    margin-left: 50px;
+}
+
+.first-content p{
+    margin-left: 55px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 100%;
+}
+
+.second-container{
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid grey;
+}
+
+
+.second-container h1{
+    font-size: 350%;
+    font-weight: 900;
+    margin-left: -30px;
+    margin-top: 55px;
+    padding-bottom: 100px;
+}
+.second-content p{
+    margin-left: -25px;
+    margin-top: -80px;
+    font-size: 30px;
+    font-weight: 20px;
+}
+
+.third-container{
+    display:flex;
+    justify-content: center;
+    padding:40px 50px;
+border-bottom: 5px solid grey;
+}
+
+.third-content h1{
+    font-size: 350%;
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top:55px;
+}
+.third-content p{
+    font-size: 25px;
+    font-weight: 20px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.fourth-container{
+    display:flex;
+    justify-content: center;
+    border-bottom: 5px solid grey;
+}
+
+.fourth-content h1{
+margin-top: 150px;
+font-weight: 800;
+font-size: 32px;
+}
+
+.fourth-content p{
+    font-size:1.125rem;
+    font-weight: 400;
+}
+
+.fifth-container{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding:5%;
+    
+}
+
+.fifth-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom:30px;
+}
+
+.query-1,.query-2,.query-3,.query-4,.query-5,.query-6{
+    background-color: rgb(45,45,45);
+    padding: 1.5rem;
+    display:flex;
+    justify-content: space-between;
+    width: 780px;
+    margin: 5px 0;
+}
+
+.query-1:hover,.query-2:hover,.query-3:hover,.query-4:hover,.query-5:hover,.query-6:hover{
+    cursor: pointer;
+    background-color: rgb(150, 144, 144);
+}
+
+        .restart-email{
+
+       margin-left : 220px;
+        margin-top: 20px;
+        > button:hover{
+            background-color:rgb(156, 5, 13); ;
+        }
+    }
+
+    .reenter-btn{
+        
+            width: 204px;
+            height: 56px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            background-color: #E50914;
+            font-family: 'Netflix Sans', sans-serif;
+            font-size: 24px;
+            cursor: pointer;
+            transition: all 0.3s;
+        
+    
+    }
+
+    .reenter-btn:hover{
+            background-color:rgb(156, 5, 13); ;
+        
+    }
+.restart p{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+    font-size: 120%;
+    font-weight: 200;
+    letter-spacing: 60%;
+    margin-left:-180px;
+}
+.restart{
+    margin-top: -45px;
+}
+
+.second-last{
+    margin-left: 140px;
+    
+}
+
+.faq-section{
+    border-bottom: 5px solid grey;
+    padding:60px 0;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+   padding: 90px;
+   gap: 150px;
+   margin: 30px 0;
+}
+
+
+ul {
+    list-style: none;
+  }
+.first-section{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: column;
+    > a,li{
+        color:rgb(202,206,197);
+        text-decoration-line: underline;
+        text-decoration-color: rgb(202, 206, 197);
+    }
+}
+
+.footer-p{
+    margin-left: -50px;
+    color:rgb(202,206,197);
+}
+
+.second-section{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    > a,li{
+        color:rgb(202,206,197);
+        text-decoration-line: underline;
+        text-decoration-color: rgb(202, 206, 197);
+    }
+}
+
+.third-section{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    > a,li{
+        color:rgb(202,206,197);
+        text-decoration-line: underline;
+        text-decoration-color: rgb(202, 206, 197);
+    }
+}
+
+.fourth-section{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    > a,li{
+        color:rgb(202,206,197);
+        text-decoration-line: underline;
+        text-decoration-color: rgb(202, 206, 197);
+    }
+}
+
+      
