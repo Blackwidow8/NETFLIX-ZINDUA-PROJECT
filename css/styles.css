@@ -83,6 +83,10 @@ nav{
         letter-spacing: 60%;
     }
 
+    .hidden{
+        display: none;
+    }
+
 
     .email{
         width: 374px;
@@ -225,6 +229,19 @@ font-size: 32px;
 .query-1:hover,.query-2:hover,.query-3:hover,.query-4:hover,.query-5:hover,.query-6:hover{
     cursor: pointer;
     background-color: rgb(150, 144, 144);
+}
+
+.ans-1,.ans-2,.ans-3,.ans-4,.ans-5,.ans-6{
+    background-color: rgb(45,45,45);
+    padding: 1.5rem;
+    display:flex;
+    justify-content: space-between;
+    width: 780px;
+    margin: 5px 0;
+}
+
+.hidden{
+    display: none;
 }
 
         .restart-email{
